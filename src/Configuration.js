@@ -1,6 +1,6 @@
-import Leaflet from 'leaflet'
-import { Locally_listed_Popup, Statutory_listed_Popup, Conservation_area_Popup, Article4_1_direction_Popup, Article4_2_direction_Popup, Scheduled_monument_Popup, Historic_Parks_Gardens_Popup } from './Popups'
-import { Locally_listed_style, Statutory_listed_style, Contaminated_land_style, Article4_1_direction_style, Article4_2_direction_style, Scheduled_monument_style, Historic_parks_gardens_style, statutorylistedpointsStyle, locallylistedpointsStyle, Scheduled_monument_points_style } from './Styles'
+//import Leaflet from 'leaflet'
+import { Conservation_area_Popup} from './Popups'
+import { Contaminated_land_style} from './Styles'
 
 const Configuration = {
     Map: {
