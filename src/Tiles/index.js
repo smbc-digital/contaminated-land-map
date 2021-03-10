@@ -2,7 +2,7 @@ import Leaflet from 'leaflet'
 import mapboxGL from 'mapbox-gl-leaflet' // eslint-disable-line no-unused-vars
 
 const token =
-  'pk.eyJ1IjoiZ2lzLXN0b2NrcG9ydCIsImEiOiJja2FxaHQyaGowNTE4MnNscjc4NnF0OWVpIn0.lzKigQAQLReFPz86rDpuVg'
+  'pk.eyJ1IjoiZ2lzLXN0b2NrcG9ydCIsImEiOiJja20zZTc5aXgyZ21zMnZvNnFjd3cyYzE3In0.rhXEkUxw7G9qSC_sMPY4cA'
 
 const greyscale = Leaflet.mapboxGL({
   style: 'mapbox://styles/gis-stockport/ck5gr2oav0utc1ipbdkcjnjop',

@@ -35,11 +35,11 @@ const Conservation_area_Popup = (feature, layer) => {
   const content = `<div class="smbc-map__item">
   <div class="smbc-map__item__header__block">
     <i class="fa fa-tag smbc-map__item__header__block__icon" aria-hidden="true"></i>
-    <span class="smbc-map__item__header__block__title">Conservation Area</span>
+    <span class="smbc-map__item__header__block__title">Possible Contaminated Land</span>
   </div>
   <div class="smbc-map__item__body">
-    <p>Name: ${feature.properties.cons_area}</p>
-    <a href="${feature.properties.web_info_link}" target="_blank">Further Information</a>
+    <p>Ref: ${feature.properties.ref}</p>
+    
     </div></div>`
   layer.bindPopup(content)
 }

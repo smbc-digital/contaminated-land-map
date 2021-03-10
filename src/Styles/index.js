@@ -14,12 +14,12 @@ fillColor: '#3288bd',
 fillOpacity: 0.5
 }
 
-const Conservation_area_style = {
-color: '#e31a1c',
-weight: 4,
+const Contaminated_land_style = {
+color: '#ffa500',
+weight: 2,
 opacity: 1,
-fillColor: '#e31a1c',
-fillOpacity: 0
+fillColor: '#ffa500',
+fillOpacity: 0.2
 }
 
 const Article4_1_direction_style = {
@@ -84,7 +84,7 @@ fillOpacity: 0.5
 export {
 Locally_listed_style,
 Statutory_listed_style,
-Conservation_area_style,
+Contaminated_land_style,
 Article4_1_direction_style,
 Article4_2_direction_style,
 Scheduled_monument_style,
